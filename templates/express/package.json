@@ -1,0 +1,19 @@
+{
+    "name": "express-starter",
+    "version": "1.0.0",
+    "main": "src/server.js",
+    "scripts": {
+      "start": "node src/server.js",
+      "dev": "nodemon src/server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "dotenv": "^16.1.4",
+      "cors": "^2.8.5",
+      "mongoose": "^7.3.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
+    }
+  }
+  

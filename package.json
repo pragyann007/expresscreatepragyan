@@ -1,0 +1,27 @@
+{
+  "name": "expresscreatepragyan",
+  "version": "1.0.1",
+  "description": "CLI to create ready-to-go Express backend starter",
+  "main": "bin/cli.js",
+  "bin": {
+    "expresscreatepragyan": "./bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "starter",
+    "cli",
+    "backend"
+  ],
+  "author": "Pragyan Thapaliya",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.9"
+  }
+}
