@@ -1,6 +1,6 @@
 {
   "name": "expresscreatepragyan",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI to create ready-to-go Express backend starter",
   "main": "bin/cli.js",
   "bin": {
@@ -23,5 +23,13 @@
     "commander": "^11.0.0",
     "fs-extra": "^11.1.1",
     "inquirer": "^9.2.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pragyann007/expresscreatepragyan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pragyann007/expresscreatepragyan/issues"
+  },
+  "homepage": "https://github.com/pragyann007/expresscreatepragyan#readme"
 }
